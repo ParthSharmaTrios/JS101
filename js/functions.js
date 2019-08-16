@@ -10,6 +10,7 @@ function greeting(user_name,day){
 //greeting("John","Wed")
 
 
+
 function checkEvenOdd(num){
 	
 	if(num%2==0){
@@ -50,3 +51,25 @@ sum(10,20,50)
 
 function tempToCel(){}
 function tempToFar(){}
+
+function showAlert(){
+	alert("hello , you clicked a button")
+}
+
+function greetUsers(){
+	
+	let name = document.getElementById("user_name").value
+	
+	if(name=="John"){
+		document.getElementById("output").innerHTML="hello," +name + " welcome to my site"
+	}
+	else{
+				document.getElementById("output").innerHTML=name + "you are not welcomed" 
+
+	}
+
+	
+	//alert("Hello, "+name )
+}
+
+
